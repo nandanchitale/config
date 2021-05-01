@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<JWM>
+<RootMenu onroot="123">
+<Menu icon="folder.png" label="Development">
+    <Program label="IDLE (Python IDE)">idle</Program>
+    <Program label="NetBeans IDE 8.2 RC">sh "/run/media/nandan/G/Softwares/linux/netbeans/NB/netbeans-8.2rc/bin/netbeans"</Program>
+    <Program label="pgAdmin 4">/usr/lib/pgadmin4/runtime/pgAdmin4</Program>
+    <Program label="Python">xterm -e python</Program>
+    <Program label="Python (v2.7)">xterm -e python2.7</Program>
+    <Program label="Tclsh8.6">xterm -e tclsh8.6</Program>
+    <Program label="Visual Studio Code">/opt/visual-studio-code/code --no-sandbox</Program>
+</Menu>
+<Menu icon="folder.png" label="Editors">
+    <Program label="AA Fire">xterm -e aafire -driver slang</Program>
+    <Program label="Mousepad">mousepad</Program>
+    <Program label="Nano">xterm -e nano</Program>
+    <Program label="Vi">xterm -e vi</Program>
+</Menu>
+<Menu icon="folder.png" label="Games">
+    <Menu icon="folder.png" label="Adventure">
+        <Program label="NetHack">xterm -e nethack</Program>
+        <Program label="Sclient">sclient</Program>
+    </Menu>
+    <Menu icon="folder.png" label="Arcade">
+        <Program label="PacMan">pacman</Program>
+    </Menu>
+</Menu>
+<Menu icon="folder.png" label="Graphics">
+    <Program label="Bitmap">bitmap</Program>
+    <Program label="Flameshot">flameshot</Program>
+    <Program label="Gcolor2">gcolor2</Program>
+    <Program label="LibreOffice Draw">libreoffice --draw</Program>
+    <Program label="scanimage">xterm -e scanimage</Program>
+    <Program label="Viewnior">viewnior</Program>
+</Menu>
+<Menu icon="folder.png" label="Multimedia">
+    <Program label="ALSA mixer">xterm -e alsamixer</Program>
+    <Program label="PulseAudio Volume Control">pavucontrol</Program>
+    <Program label="Qt V4L2 test Utility">qv4l2</Program>
+    <Program label="Qt V4L2 video capture utility">qvidcap</Program>
+    <Program label="Rhythmbox">rhythmbox</Program>
+    <Program label="VLC media player">flatpak run --branch=stable --arch=x86_64 --command=/app/bin/vlc --file-forwarding org.videolan.VLC --started-from-file @@u</Program>
+    <Program label="Xfburn">xfburn</Program>
+</Menu>
+<Menu icon="folder.png" label="Network">
+    <Program label="Avahi SSH Server Browser">bssh</Program>
+    <Program label="Avahi VNC Server Browser">bvnc</Program>
+    <Program label="Brave">brave</Program>
+    <Program label="FTP">xterm -e ftp</Program>
+    <Program label="KTorrent">flatpak run --branch=stable --arch=x86_64 --command=ktorrent --file-forwarding org.kde.ktorrent @@u</Program>
+    <Program label="Mail">xterm -e mail</Program>
+    <Program label="Mail Reader">exo-open --launch MailReader</Program>
+    <Program label="Talk">xterm -e talk</Program>
+    <Program label="Telnet">xterm -e telnet</Program>
+    <Program label="TkVNC">xterm -e tkvnc</Program>
+    <Program label="Web Browser">exo-open --launch WebBrowser</Program>
+</Menu>
+<Menu icon="folder.png" label="Office">
+    <Program label="Dictionary">xfce4-dict</Program>
+    <Program label="LibreOffice Calc">libreoffice --calc</Program>
+    <Program label="LibreOffice Impress">libreoffice</Program>
+    <Program label="LibreOffice Impress">libreoffice --impress</Program>
+    <Program label="LibreOffice Math">libreoffice --math</Program>
+    <Program label="LibreOffice Writer">libreoffice --writer</Program>
+    <Program label="PostgreSQL Database">xterm -e psql template1</Program>
+    <Program label="qpdfview">qpdfview</Program>
+</Menu>
+<Menu icon="folder.png" label="Science">
+    <Program label="bc">xterm -e bc</Program>
+    <Program label="dc">xterm -e dc</Program>
+</Menu>
+<Menu icon="folder.png" label="Shells">
+    <Program label="Files">nautilus</Program>
+    <Program label="GIT">xterm -e git</Program>
+    <Program label="ranger">xterm -e ranger</Program>
+    <Program label="ST">st</Program>
+    <Program label="Terminator">terminator</Program>
+    <Program label="Thunar File Manager">thunar</Program>
+    <Program label="UXTerm">uxterm</Program>
+    <Program label="Xfce Terminal">xfce4-terminal</Program>
+    <Program label="Xterm">xterm</Program>
+</Menu>
+<Menu icon="folder.png" label="System">
+    <Menu icon="folder.png" label="Settings">
+        <Menu icon="folder.png" label="GNOME">
+            <Program label="About Me">mugshot</Program>
+            <Program label="Add/Remove Software">pamac-manager</Program>
+            <Program label="Advanced Network Configuration">nm-connection-editor</Program>
+            <Program label="Bluetooth Manager">blueman-manager</Program>
+            <Program label="Firewall Configuration">gufw</Program>
+            <Program label="LightDM GTK+ Greeter settings">lightdm-gtk-greeter-settings-pkexec</Program>
+            <Program label="Menu Editor">menulibre</Program>
+        </Menu>
+        <Menu icon="folder.png" label="Xfce">
+            <Program label="Bluetooth Adapters">blueman-adapters</Program>
+            <Program label="Settings Manager">xfce4-settings-manager</Program>
+        </Menu>
+        <Program label="Accessibility">xfce4-accessibility-settings</Program>
+        <Program label="Appearance">xfce4-appearance-settings</Program>
+        <Program label="Clipboard Manager Settings">xfce4-clipman-settings</Program>
+        <Program label="Color Profiles">xfce4-color-settings</Program>
+        <Program label="Customize Look and Feel">lxappearance</Program>
+        <Program label="Default Applications">xfce4-mime-settings</Program>
+        <Program label="Desktop">xfdesktop-settings</Program>
+        <Program label="Display">xfce4-display-settings</Program>
+        <Program label="File Manager Settings">thunar-settings</Program>
+        <Program label="Keyboard">xfce4-keyboard-settings</Program>
+        <Program label="Mouse and Touchpad">xfce4-mouse-settings</Program>
+        <Program label="Notifications">xfce4-notifyd-config</Program>
+        <Program label="Openbox Configuration Manager">obconf</Program>
+        <Program label="Panel">xfce4-panel --preferences</Program>
+        <Program label="Power Manager">xfce4-power-manager-settings</Program>
+        <Program label="Removable Drives and Media">thunar-volman-settings</Program>
+        <Program label="Screensaver">xfce4-screensaver-preferences</Program>
+        <Program label="Session and Startup">xfce4-session-settings</Program>
+        <Program label="Settings Editor">xfce4-settings-editor</Program>
+        <Program label="Window Manager">xfwm4-settings</Program>
+        <Program label="Window Manager Tweaks">xfwm4-tweaks-settings</Program>
+        <Program label="Workspaces">xfwm4-workspace-settings</Program>
+        <Program label="Xfce Terminal Settings">xfce4-terminal --preferences</Program>
+    </Menu>
+    <Program label="Avahi Zeroconf Browser">avahi-discover</Program>
+    <Program label="GDM Setup">gksu gdmsetup</Program>
+    <Program label="GParted">gparted</Program>
+    <Program label="GtkHash">gtkhash</Program>
+    <Program label="Hardware Locality lstopo">lstopo</Program>
+    <Program label="Htop">xterm -e htop</Program>
+    <Program label="Log Out">xfce4-session-logout</Program>
+    <Program label="Manjaro Hello">manjaro-hello</Program>
+    <Program label="pstree">xterm -e pstree</Program>
+    <Program label="pstree">xterm -e /usr/bin/pstree.x11</Program>
+    <Program label="Pstree">xterm -e pstree.x11</Program>
+    <Program label="Sensor Viewer">xfce4-sensors</Program>
+    <Program label="Software Token">stoken-gui</Program>
+    <Program label="Software Token (small)">stoken-gui --small</Program>
+    <Program label="Task Manager">xfce4-taskmanager</Program>
+    <Program label="Timeshift">timeshift-launcher</Program>
+    <Program label="Top">xterm -e top</Program>
+</Menu>
+<Menu icon="folder.png" label="Utilities">
+    <Program label="About Xfce">xfce4-about</Program>
+    <Program label="Application Finder">xfce4-appfinder</Program>
+    <Program label="Clipboard Manager">xfce4-clipman</Program>
+    <Program label="Console Matrix (Text)">xterm -e cmatrix</Program>
+    <Program label="Console Matrix (Virtual Console)">xterm -e cmatrix -l</Program>
+    <Program label="Console Matrix (X11)">cmatrix -x</Program>
+    <Program label="Disks">gnome-disks</Program>
+    <Program label="f.lux indicator applet">fluxgui</Program>
+    <Program label="File Manager">exo-open --launch FileManager</Program>
+    <Program label="Galculator">galculator</Program>
+    <Program label="Info">xterm -e info</Program>
+    <Program label="Manjaro User Guide">manjaro-documentation</Program>
+    <Program label="MongoDB Compass">mongodb-compass</Program>
+    <Program label="Notes">xfce4-notes</Program>
+    <Program label="Run Program...">xfce4-appfinder --collapsed</Program>
+    <Program label="Screenshot">xfce4-screenshooter</Program>
+    <Program label="Terminal Emulator">exo-open --launch TerminalEmulator</Program>
+    <Program label="Xev">xterm -e xev</Program>
+    <Program label="Xkill">xkill</Program>
+    <Program label="Xrefresh">xrefresh</Program>
+    <Program label="Xsetroot">xsetroot</Program>
+</Menu>
+<Separator/>
+<Restart label="Restart" icon="restart.png"/>
+<Exit label="Exit" confirm="true" icon="quit.png"/>
+</RootMenu>
+
+    <!-- Options for program groups. -->
+    <Group>
+        <Option>tiled</Option>
+        <Option>aerosnap</Option>
+    </Group>
+    <Group>
+        <Class>Pidgin</Class>
+        <Option>sticky</Option>
+    </Group>
+    <Group>
+        <Name>xterm</Name>
+        <Option>vmax</Option>
+    </Group>
+    <Group>
+        <Name>xclock</Name>
+        <Option>drag</Option>
+        <Option>notitle</Option>
+    </Group>
+
+    <!-- Tray at the bottom. -->
+    <Tray x="1" y="-1" autohide="off">
+
+        <TrayButton icon="$HOME/.jwm/icons/maia.png">root:1</TrayButton>
+        <Spacer width="2"/>
+        <TrayButton label="_">showdesktop</TrayButton>
+        <Spacer width="2"/>
+
+        <Pager labeled="true"/>
+
+        <TaskList maxwidth="256"/>
+
+        <Dock/>
+        <Clock format="%H:%M"><Button mask="123">exec:xclock</Button></Clock>
+
+    </Tray>
+
+    <!-- Visual Styles -->
+    <WindowStyle>
+        <Font>Sans-9:bold</Font>
+        <Width>4</Width>
+        <Height>21</Height>
+        <Corner>3</Corner>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#555555</Background>
+        <Outline>#000000</Outline>
+        <Opacity>0.5</Opacity>
+        <Active>
+            <Foreground>#FFFFFF</Foreground>
+            <Background>#0077CC</Background>
+            <Outline>#000000</Outline>
+            <Opacity>1.0</Opacity>
+        </Active>
+    </WindowStyle>
+    <TrayStyle group="true" list="all">
+        <Font>Sans-9</Font>
+        <Background>#333333</Background>
+        <Foreground>#FFFFFF</Foreground>
+        <Outline>#000000</Outline>
+        <Opacity>0.75</Opacity>
+    </TrayStyle>
+    <TaskListStyle>
+      <Font>Sans-9</Font>
+      <Active>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#555555</Background>
+      </Active>
+      <Foreground>#FFFFFF</Foreground>
+      <Background>#333333</Background>
+    </TaskListStyle>
+    <PagerStyle>
+        <Outline>#000000</Outline>
+        <Foreground>#555555</Foreground>
+        <Background>#333333</Background>
+        <Text>#FFFFFF</Text>
+        <Active>
+            <Foreground>#0077CC</Foreground>
+            <Background>#004488</Background>
+        </Active>
+    </PagerStyle>
+    <MenuStyle>
+        <Font>Sans-9</Font>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#333333</Background>
+        <Outline>#000000</Outline>
+        <Active>
+            <Foreground>#FFFFFF</Foreground>
+            <Background>#0077CC</Background>
+        </Active>
+        <Opacity>0.85</Opacity>
+    </MenuStyle>
+    <PopupStyle>
+        <Font>Sans-9</Font>
+        <Foreground>#000000</Foreground>
+        <Background>#999999</Background>
+    </PopupStyle>
+
+    <!-- Path where icons can be found.
+         IconPath can be listed multiple times to allow searching
+         for icons in multiple paths.
+      -->
+    <IconPath>
+        /usr/share/icons/
+    </IconPath>
+    <IconPath>
+        /home/nandan/.jwm/icons
+    </IconPath>
+
+    <!-- Virtual Desktops -->
+    <!-- Desktop tags can be contained within Desktops for desktop names. -->
+    <Desktops width="4" height="1">
+        <!-- Default background. Note that a Background tag can be
+              contained within a Desktop tag to give a specific background
+              for that desktop.
+         -->
+        <Background type="solid">#111111</Background>
+    </Desktops>
+
+    <!-- Double click speed (in milliseconds) -->
+    <DoubleClickSpeed>400</DoubleClickSpeed>
+
+    <!-- Double click delta (in pixels) -->
+    <DoubleClickDelta>2</DoubleClickDelta>
+
+    <!-- The focus model (sloppy or click) -->
+    <FocusModel>sloppy</FocusModel>
+
+    <!-- The snap mode (none, screen, or border) -->
+    <SnapMode distance="10">border</SnapMode>
+
+    <!-- The move mode (outline or opaque) -->
+    <MoveMode>opaque</MoveMode>
+
+    <!-- The resize mode (outline or opaque) -->
+    <ResizeMode>opaque</ResizeMode>
+
+    <!-- Key bindings -->
+    <Key key="Up">up</Key>
+    <Key key="Down">down</Key>
+    <Key key="Right">right</Key>
+    <Key key="Left">left</Key>
+    <Key key="h">left</Key>
+    <Key key="j">down</Key>
+    <Key key="k">up</Key>
+    <Key key="l">right</Key>
+    <Key key="Return">select</Key>
+    <Key key="Escape">escape</Key>
+
+    <Key mask="A" key="t">exec:terminator</Key>
+
+    <Key mask="A" key="Tab">nextstacked</Key>
+    <Key mask="A" key="F4">close</Key>
+    <Key mask="A" key="#">desktop#</Key>
+    <Key mask="A" key="F1">root:1</Key>
+    <Key mask="A" key="F2">window</Key>
+    <Key mask="A" key="F10">maximize</Key>
+    <Key mask="A" key="Right">rdesktop</Key>
+    <Key mask="A" key="Left">ldesktop</Key>
+    <Key mask="A" key="Up">udesktop</Key>
+    <Key mask="A" key="Down">ddesktop</Key>
+
+    <StartupCommand>nm-applet</StartupCommand>
+    <StartupCommand>xfce4-power-manager</StartupCommand>
+
+    <Key mask="A" key="S" key="r">restart</Key>
+
+
+
+</JWM>
